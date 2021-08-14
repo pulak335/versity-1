@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+</head>
+<body>
+<header>
+    <div class="container">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">XYZ SCHOOL</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#photo">School's Images</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#info">School Info</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+            </ul>
+            <div class="d-flex">
+                <nav>
+                    <li class="nav-item dropdown custom-li">
+                        <a class="nav-link dropdown-toggle btn btn-outline-success text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Application
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="applicationTeacher.html">Teachers info</a></li><hr>
+                          <li><a class="dropdown-item" href="applicationStudent.html">Students info</a></li>
+                        </ul>
+                      </li>
+                </ul>
+            </nav>
+          </div>
+        </div>
+      </nav>
+              
+    </div>
+        <section class="cover">
+            <div class="row">
+                <div class="col-12">
+                    <img src="img/school.jpg" alt="" srcset="">
+                </div>
+            </div>
+        </section>
+</header>
+<main class="container">
+    <section class=" mt-5 mb-5" id="photo">
+        <h3>School Photo Gallery</h3>
+        <div class="row mt-5">
+            <div class="col-4">
+                <img class="img-fluid" src="img/school-1.png" alt="" srcset="">
+            </div>
+            <div class="col-4">
+                <img class="img-fluid" style="width: 100%" src="img/school-2.jpg" alt="" srcset="">
+            </div>
+            <div class="col-4">
+                <img class="img-fluid" src="img/school-3.jpg" alt="" srcset="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <img class="img-fluid" src="img/school-4.jpg" alt="" srcset="">
+            </div>
+            <div class="col-6">
+                <img class="img-fluid" src="img/school-5.jpg" alt="" srcset="">
+            </div>
+        </div>
+    </section>
+    <section class="mt-5 mb-5" id="info">
+        <h3>School Info</h3>
+        <div class="d-flex justify-content-between mt-5">
+            <div class="">
+                <iframe width="350" height="300" src="https://www.youtube.com/embed/kKC2rvgk4SI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="">
+                <iframe width="350" height="300" src="https://www.youtube.com/embed/sk7ZGqbpLmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="">
+                <iframe width="350" height="300" src="https://www.youtube.com/embed/y9Whbu4J-cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <section class="mt-5 mb-5" id="about">
+        <div>
+            <h3>About Us</h3>
+        </div>
+        <div class="mt-5 d-flex justify-content-between">
+            <div class="map">
+                <h4 class=" mb-5">Location</h4>
+                <div style="width: 100%"><iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.maps.ie/draw-radius-circle-map/">Google radius map</a></div>
+            </div>
+            <div class="address">
+                <h4 class="mt-5">Contact with us</h4>
+                <p class="mt-5">Address: Main campus, Main road , plot-19, Block-A, Dhaka 1216 <br>
+                    Phone: 01453-45698 <br>
+                Email: xyzschool@gmail.com</p>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <p class="text-center">Copyright © 2021. Development by Arafat Islam.</p>
+</footer>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+</body>
+</html>
